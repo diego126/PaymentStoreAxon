@@ -7,6 +7,9 @@ public class RegisterOrderOkResponseDto {
 		super();
 		this.orderId = orderId;
 	}
-	
+
+	public String getOrderId() {
+		return orderId;
+	}
 	
 }
